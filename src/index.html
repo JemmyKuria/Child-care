@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Child care Services</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo">
+            <div class="header-text">
+                <h1>The purpose is to<br>connect child care workers to parents</h1>
+                <span class="square"></span>
+                <p>There are many child care workers who are experienced and suffer before they find a place to work. This is the same to parents who search for workers but they do not find hence they end up suffering.</p>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+    
+    
+
+<section id="about">
+    <div class="about-left-col">
+        <img src="images/unity.jpg">
+    </div>
+    <div class="about-right-col">
+        <div class="about-text">
+            <h1>About Us</h1>
+            <span class="square"></span>
+            <p> This is just a platform that help these two parties to connect. By joining our communinity, it helps a parent see the profiles of all the child care workers available and what they are experienced in. A parent can easily choose who they want to employ according to those profiles.
+                This is the same to workers, they can easily see the profiles of all the parents who want to have a child care worker. They will also be able to select and communicate to the one they want to work to. This community focuses mostly on those parents who have children with disablities. These children need workers who are trained and experienced and the parents will easily find them in the community.
+            </p><br><br>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            
+        </div>
+    </div>
+</section>   
+        
+    
+<section id="features">
+    <div class="feature-col">
+        <img src="images/search.png" alt="" style="width: 5%; height: 5%;">
+        <h3>search for child care givers </h3>
+        <p>Find the perfect nanny or caregiver who matches your requirements. We make it easy to search and discover experienced nannies who are passionate about providing the best care for your child.</p>
+     </div>
+
+     <div class="feature-col">
+        <img src="images/call.png" alt="" style="width: 5%; height: 5%;">
+        <h3>contact the workers</h3>
+        <p>Connect with nannies and caregivers directly to discuss your needs and expectations. Our platform ensures smooth communication to help you make the right choice for your family.</p>
+     </div>
+
+     <div class="feature-col">
+        <img src="images/meet.jpg" alt="" style="width: 5%; height: 5%;">
+        <h3>enjoy peace of mind</h3>
+        <p>Rest easy knowing your child is in the hands of a qualified and caring nanny. We're here to make your childcare journey stress-free, so you can focus on what matters most.</p></div>
+    </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-btn">Join Us</button>
+        </div>
+</section>  
+    
+
+<section id="contact">
+    <div class="container contact-row">
+        <div class="contact-left-col">
+            <h1>Sign Up to join our community</h1>
+            <form>
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <input type="password" placeholder="Enter Password">
+            <div class="btn-box">
+                <button class="common-btn">Sign Up</button>
+            </div>
+            </form>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+        </div>
+        <div class="contact-right-col">
+            <img src="images/contact.jpg">
+        </div>
+    </div>
+</section>   
+      
+
+                                
+<div class="social-icons">
+    <img src="images/facebook.png">
+    <img src="images/instagram.png">
+    <img src="images/twitter.png">
+</div> 
+                                                                                                                   
+    
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+        
+        var scroll = new SmoothScroll('a[href*="#"]',{
+            speed: 1000,
+            speedAsDuration: true
+        });
+
+        
+        
+    </script>
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
